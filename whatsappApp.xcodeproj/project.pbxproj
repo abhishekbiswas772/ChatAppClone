@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210C9C602B47C15C00D7E227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C9C5F2B47C15C00D7E227 /* SceneDelegate.swift */; };
+		210C9C622B47C15C00D7E227 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C9C612B47C15C00D7E227 /* WelcomeViewController.swift */; };
+		210C9C652B47C15C00D7E227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210C9C632B47C15C00D7E227 /* Main.storyboard */; };
+		210C9C672B47C15F00D7E227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210C9C662B47C15F00D7E227 /* Assets.xcassets */; };
+		210C9C6A2B47C15F00D7E227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210C9C682B47C15F00D7E227 /* LaunchScreen.storyboard */; };
+		210C9C722B47CF2700D7E227 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 210C9C712B47CF2600D7E227 /* GoogleService-Info.plist */; };
+		210C9C752B47D18900D7E227 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C9C742B47D18900D7E227 /* FUser.swift */; };
+		210C9C772B47D40C00D7E227 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C9C762B47D40B00D7E227 /* Constants.swift */; };
+		210C9C7A2B47D4DE00D7E227 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C9C792B47D4DE00D7E227 /* Helpers.swift */; };
+		210C9C7C2B4802A600D7E227 /* FHelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C9C7B2B4802A600D7E227 /* FHelperClass.swift */; };
+		210C9C802B4829BC00D7E227 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210C9C7F2B4829BC00D7E227 /* RegisterViewController.swift */; };
+		2118D1632B4D3E5F00D16A03 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1622B4D3E5E00D16A03 /* SplashViewController.swift */; };
+		2118D1652B4D400600D16A03 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1642B4D400600D16A03 /* TabViewController.swift */; };
+		2118D1682B4D456D00D16A03 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1672B4D456D00D16A03 /* ProfileViewController.swift */; };
+		2118D16C2B4D464600D16A03 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D16A2B4D464600D16A03 /* ProfileTableViewCell.swift */; };
+		2118D16D2B4D464600D16A03 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2118D16B2B4D464600D16A03 /* ProfileTableViewCell.xib */; };
+		2118D1722B4D469600D16A03 /* SubProfile1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1702B4D469600D16A03 /* SubProfile1TableViewCell.swift */; };
+		2118D1732B4D469600D16A03 /* SubProfile1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2118D1712B4D469600D16A03 /* SubProfile1TableViewCell.xib */; };
+		2118D1762B4D46AA00D16A03 /* Sub2ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1742B4D46AA00D16A03 /* Sub2ProfileTableViewCell.swift */; };
+		2118D1772B4D46AA00D16A03 /* Sub2ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2118D1752B4D46AA00D16A03 /* Sub2ProfileTableViewCell.xib */; };
+		2118D17C2B4D694600D16A03 /* ChatHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D17B2B4D694600D16A03 /* ChatHandler.swift */; };
+		2118D1802B4D7CC200D16A03 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D17E2B4D7CC200D16A03 /* ChatTableViewCell.swift */; };
+		2118D1812B4D7CC200D16A03 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2118D17F2B4D7CC200D16A03 /* ChatTableViewCell.xib */; };
+		21A8B4042B482C3E0063C1C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4032B482C3E0063C1C0 /* AppDelegate.swift */; };
+		21A8B4062B495F200063C1C0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4052B495F200063C1C0 /* SettingViewController.swift */; };
+		21A8B40A2B49608B0063C1C0 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4082B49608B0063C1C0 /* SettingTableViewCell.swift */; };
+		21A8B40B2B49608B0063C1C0 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A8B4092B49608B0063C1C0 /* SettingTableViewCell.xib */; };
+		21A8B40E2B4C1A9E0063C1C0 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B40C2B4C1A9E0063C1C0 /* UserTableViewCell.swift */; };
+		21A8B40F2B4C1A9E0063C1C0 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A8B40D2B4C1A9E0063C1C0 /* UserTableViewCell.xib */; };
+		21A8B4112B4C1B460063C1C0 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4102B4C1B460063C1C0 /* UserViewController.swift */; };
+		21A8B4132B4C32A80063C1C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4122B4C32A80063C1C0 /* HomeViewController.swift */; };
+		B10F3863F0650C1CC7ED386E /* Pods_whatsappApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707BFF91FF8FDD30DE7B2632 /* Pods_whatsappApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		210C9C5A2B47C15C00D7E227 /* whatsappApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatsappApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210C9C5F2B47C15C00D7E227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		210C9C612B47C15C00D7E227 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = "../New Group/WelcomeViewController.swift"; sourceTree = "<group>"; };
+		210C9C642B47C15C00D7E227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		210C9C662B47C15F00D7E227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		210C9C692B47C15F00D7E227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		210C9C6B2B47C15F00D7E227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210C9C712B47CF2600D7E227 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		210C9C742B47D18900D7E227 /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		210C9C762B47D40B00D7E227 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		210C9C792B47D4DE00D7E227 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		210C9C7B2B4802A600D7E227 /* FHelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHelperClass.swift; sourceTree = "<group>"; };
+		210C9C7F2B4829BC00D7E227 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2118D1622B4D3E5E00D16A03 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2118D1642B4D400600D16A03 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		2118D1672B4D456D00D16A03 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2118D16A2B4D464600D16A03 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		2118D16B2B4D464600D16A03 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		2118D1702B4D469600D16A03 /* SubProfile1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubProfile1TableViewCell.swift; sourceTree = "<group>"; };
+		2118D1712B4D469600D16A03 /* SubProfile1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubProfile1TableViewCell.xib; sourceTree = "<group>"; };
+		2118D1742B4D46AA00D16A03 /* Sub2ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub2ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		2118D1752B4D46AA00D16A03 /* Sub2ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Sub2ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		2118D17B2B4D694600D16A03 /* ChatHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHandler.swift; sourceTree = "<group>"; };
+		2118D17E2B4D7CC200D16A03 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		2118D17F2B4D7CC200D16A03 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		21A8B4032B482C3E0063C1C0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21A8B4052B495F200063C1C0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		21A8B4082B49608B0063C1C0 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		21A8B4092B49608B0063C1C0 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		21A8B40C2B4C1A9E0063C1C0 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		21A8B40D2B4C1A9E0063C1C0 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		21A8B4102B4C1B460063C1C0 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		21A8B4122B4C32A80063C1C0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		535FC25A80437807D0717BCC /* Pods-whatsappApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatsappApp.release.xcconfig"; path = "Target Support Files/Pods-whatsappApp/Pods-whatsappApp.release.xcconfig"; sourceTree = "<group>"; };
+		707BFF91FF8FDD30DE7B2632 /* Pods_whatsappApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whatsappApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4944E088A30536FBF6E8A30 /* Pods-whatsappApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatsappApp.debug.xcconfig"; path = "Target Support Files/Pods-whatsappApp/Pods-whatsappApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210C9C572B47C15C00D7E227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10F3863F0650C1CC7ED386E /* Pods_whatsappApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210C9C512B47C15C00D7E227 = {
+			isa = PBXGroup;
+			children = (
+				210C9C5C2B47C15C00D7E227 /* whatsappApp */,
+				210C9C5B2B47C15C00D7E227 /* Products */,
+				5A70C24A9B181D1B89A611E8 /* Pods */,
+				D663E3C17FEF06F6EC46B0BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		210C9C5B2B47C15C00D7E227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210C9C5A2B47C15C00D7E227 /* whatsappApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210C9C5C2B47C15C00D7E227 /* whatsappApp */ = {
+			isa = PBXGroup;
+			children = (
+				210C9C7D2B48298B00D7E227 /* Controllers */,
+				210C9C782B47D4D300D7E227 /* Helpers */,
+				210C9C732B47D17800D7E227 /* Firebase */,
+				210C9C712B47CF2600D7E227 /* GoogleService-Info.plist */,
+				210C9C6B2B47C15F00D7E227 /* Info.plist */,
+				210C9C812B482BAC00D7E227 /* resource */,
+				210C9C632B47C15C00D7E227 /* Main.storyboard */,
+			);
+			path = whatsappApp;
+			sourceTree = "<group>";
+		};
+		210C9C732B47D17800D7E227 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				210C9C742B47D18900D7E227 /* FUser.swift */,
+				210C9C762B47D40B00D7E227 /* Constants.swift */,
+				210C9C7B2B4802A600D7E227 /* FHelperClass.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		210C9C782B47D4D300D7E227 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				210C9C792B47D4DE00D7E227 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		210C9C7D2B48298B00D7E227 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2118D1782B4D68E900D16A03 /* ChatsController */,
+				2118D1662B4D453800D16A03 /* SubControllers */,
+				21A8B4072B4960710063C1C0 /* Cells */,
+				210C9C612B47C15C00D7E227 /* WelcomeViewController.swift */,
+				210C9C7F2B4829BC00D7E227 /* RegisterViewController.swift */,
+				21A8B4122B4C32A80063C1C0 /* HomeViewController.swift */,
+				2118D1622B4D3E5E00D16A03 /* SplashViewController.swift */,
+				2118D1642B4D400600D16A03 /* TabViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		210C9C812B482BAC00D7E227 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				210C9C5F2B47C15C00D7E227 /* SceneDelegate.swift */,
+				21A8B4032B482C3E0063C1C0 /* AppDelegate.swift */,
+				210C9C682B47C15F00D7E227 /* LaunchScreen.storyboard */,
+				210C9C662B47C15F00D7E227 /* Assets.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		2118D1662B4D453800D16A03 /* SubControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21A8B4102B4C1B460063C1C0 /* UserViewController.swift */,
+				21A8B4052B495F200063C1C0 /* SettingViewController.swift */,
+				2118D1672B4D456D00D16A03 /* ProfileViewController.swift */,
+			);
+			path = SubControllers;
+			sourceTree = "<group>";
+		};
+		2118D1692B4D462E00D16A03 /* ProfileCell */ = {
+			isa = PBXGroup;
+			children = (
+				2118D16A2B4D464600D16A03 /* ProfileTableViewCell.swift */,
+				2118D16B2B4D464600D16A03 /* ProfileTableViewCell.xib */,
+				2118D1702B4D469600D16A03 /* SubProfile1TableViewCell.swift */,
+				2118D1712B4D469600D16A03 /* SubProfile1TableViewCell.xib */,
+				2118D1742B4D46AA00D16A03 /* Sub2ProfileTableViewCell.swift */,
+				2118D1752B4D46AA00D16A03 /* Sub2ProfileTableViewCell.xib */,
+			);
+			path = ProfileCell;
+			sourceTree = "<group>";
+		};
+		2118D1782B4D68E900D16A03 /* ChatsController */ = {
+			isa = PBXGroup;
+			children = (
+				2118D17D2B4D7CAD00D16A03 /* ChatCell */,
+				2118D17B2B4D694600D16A03 /* ChatHandler.swift */,
+			);
+			path = ChatsController;
+			sourceTree = "<group>";
+		};
+		2118D17D2B4D7CAD00D16A03 /* ChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				2118D17E2B4D7CC200D16A03 /* ChatTableViewCell.swift */,
+				2118D17F2B4D7CC200D16A03 /* ChatTableViewCell.xib */,
+			);
+			path = ChatCell;
+			sourceTree = "<group>";
+		};
+		21A8B4072B4960710063C1C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2118D1692B4D462E00D16A03 /* ProfileCell */,
+				21A8B4082B49608B0063C1C0 /* SettingTableViewCell.swift */,
+				21A8B4092B49608B0063C1C0 /* SettingTableViewCell.xib */,
+				21A8B40C2B4C1A9E0063C1C0 /* UserTableViewCell.swift */,
+				21A8B40D2B4C1A9E0063C1C0 /* UserTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5A70C24A9B181D1B89A611E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4944E088A30536FBF6E8A30 /* Pods-whatsappApp.debug.xcconfig */,
+				535FC25A80437807D0717BCC /* Pods-whatsappApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D663E3C17FEF06F6EC46B0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				707BFF91FF8FDD30DE7B2632 /* Pods_whatsappApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210C9C592B47C15C00D7E227 /* whatsappApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210C9C6E2B47C15F00D7E227 /* Build configuration list for PBXNativeTarget "whatsappApp" */;
+			buildPhases = (
+				80BA13AE48209AF2C11A44E5 /* [CP] Check Pods Manifest.lock */,
+				210C9C562B47C15C00D7E227 /* Sources */,
+				210C9C572B47C15C00D7E227 /* Frameworks */,
+				210C9C582B47C15C00D7E227 /* Resources */,
+				9F62472C025302EEA9ED42AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whatsappApp;
+			productName = whatsappApp;
+			productReference = 210C9C5A2B47C15C00D7E227 /* whatsappApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210C9C522B47C15C00D7E227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					210C9C592B47C15C00D7E227 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 210C9C552B47C15C00D7E227 /* Build configuration list for PBXProject "whatsappApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210C9C512B47C15C00D7E227;
+			productRefGroup = 210C9C5B2B47C15C00D7E227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210C9C592B47C15C00D7E227 /* whatsappApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210C9C582B47C15C00D7E227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210C9C6A2B47C15F00D7E227 /* LaunchScreen.storyboard in Resources */,
+				210C9C722B47CF2700D7E227 /* GoogleService-Info.plist in Resources */,
+				210C9C672B47C15F00D7E227 /* Assets.xcassets in Resources */,
+				2118D16D2B4D464600D16A03 /* ProfileTableViewCell.xib in Resources */,
+				2118D1772B4D46AA00D16A03 /* Sub2ProfileTableViewCell.xib in Resources */,
+				2118D1732B4D469600D16A03 /* SubProfile1TableViewCell.xib in Resources */,
+				21A8B40B2B49608B0063C1C0 /* SettingTableViewCell.xib in Resources */,
+				2118D1812B4D7CC200D16A03 /* ChatTableViewCell.xib in Resources */,
+				21A8B40F2B4C1A9E0063C1C0 /* UserTableViewCell.xib in Resources */,
+				210C9C652B47C15C00D7E227 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80BA13AE48209AF2C11A44E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whatsappApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F62472C025302EEA9ED42AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whatsappApp/Pods-whatsappApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whatsappApp/Pods-whatsappApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-whatsappApp/Pods-whatsappApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210C9C562B47C15C00D7E227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A8B4042B482C3E0063C1C0 /* AppDelegate.swift in Sources */,
+				21A8B4112B4C1B460063C1C0 /* UserViewController.swift in Sources */,
+				210C9C772B47D40C00D7E227 /* Constants.swift in Sources */,
+				2118D1652B4D400600D16A03 /* TabViewController.swift in Sources */,
+				2118D1722B4D469600D16A03 /* SubProfile1TableViewCell.swift in Sources */,
+				21A8B40E2B4C1A9E0063C1C0 /* UserTableViewCell.swift in Sources */,
+				210C9C7A2B47D4DE00D7E227 /* Helpers.swift in Sources */,
+				2118D1682B4D456D00D16A03 /* ProfileViewController.swift in Sources */,
+				2118D1632B4D3E5F00D16A03 /* SplashViewController.swift in Sources */,
+				2118D17C2B4D694600D16A03 /* ChatHandler.swift in Sources */,
+				210C9C7C2B4802A600D7E227 /* FHelperClass.swift in Sources */,
+				210C9C802B4829BC00D7E227 /* RegisterViewController.swift in Sources */,
+				21A8B4062B495F200063C1C0 /* SettingViewController.swift in Sources */,
+				2118D16C2B4D464600D16A03 /* ProfileTableViewCell.swift in Sources */,
+				21A8B40A2B49608B0063C1C0 /* SettingTableViewCell.swift in Sources */,
+				210C9C622B47C15C00D7E227 /* WelcomeViewController.swift in Sources */,
+				210C9C602B47C15C00D7E227 /* SceneDelegate.swift in Sources */,
+				2118D1762B4D46AA00D16A03 /* Sub2ProfileTableViewCell.swift in Sources */,
+				2118D1802B4D7CC200D16A03 /* ChatTableViewCell.swift in Sources */,
+				21A8B4132B4C32A80063C1C0 /* HomeViewController.swift in Sources */,
+				210C9C752B47D18900D7E227 /* FUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		210C9C632B47C15C00D7E227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210C9C642B47C15C00D7E227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		210C9C682B47C15F00D7E227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210C9C692B47C15F00D7E227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210C9C6C2B47C15F00D7E227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		210C9C6D2B47C15F00D7E227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210C9C6F2B47C15F00D7E227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4944E088A30536FBF6E8A30 /* Pods-whatsappApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M26QSW694N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = whatsappApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.net.whatsappApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		210C9C702B47C15F00D7E227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535FC25A80437807D0717BCC /* Pods-whatsappApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M26QSW694N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = whatsappApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.net.whatsappApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210C9C552B47C15C00D7E227 /* Build configuration list for PBXProject "whatsappApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210C9C6C2B47C15F00D7E227 /* Debug */,
+				210C9C6D2B47C15F00D7E227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210C9C6E2B47C15F00D7E227 /* Build configuration list for PBXNativeTarget "whatsappApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210C9C6F2B47C15F00D7E227 /* Debug */,
+				210C9C702B47C15F00D7E227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210C9C522B47C15C00D7E227 /* Project object */;
+}
