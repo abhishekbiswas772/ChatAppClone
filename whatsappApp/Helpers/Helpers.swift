@@ -21,6 +21,23 @@ final class HelperClass {
     }
     
     
+    public func dictFromSnapShot(snapShot : [DocumentSnapshot]) -> [NSDictionary] {
+        var allMessage : [NSDictionary] = []
+        for snap in snapShot {
+            allMessage.append(snap.data() as? NSDictionary ?? [:])
+        }
+        return allMessage
+    }
+    
+    
+    public func readTimeFrom(theDateString whichHavingDate: String) -> String {
+        guard let date = self.dateFormatter().date(from: whichHavingDate) else {return ""}
+        let currentDateFormat = dateFormatter()
+        currentDateFormat.dateFormat = "HH:mm"
+        return currentDateFormat.string(from: date)
+    }
+    
+    
     
     public func imageFromData(withData: String, onCompleation: @escaping(_ image: UIImage?) -> Void) {
         var img : UIImage?
@@ -104,7 +121,7 @@ final class HelperClass {
         }
         return elapsed!
     }
-
+    
 }
 
 

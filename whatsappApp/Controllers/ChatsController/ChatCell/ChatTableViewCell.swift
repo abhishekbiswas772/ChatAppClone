@@ -20,8 +20,10 @@ class ChatTableViewCell: UITableViewCell {
     @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var chatView: UIView!
     
+    
     var indexPath : IndexPath?
     var tapGesture : UITapGestureRecognizer?
+    var delegate : ChatTableViewCellDelegate?
     
     
     override func awakeFromNib() {
@@ -34,7 +36,9 @@ class ChatTableViewCell: UITableViewCell {
     }
     
     @objc func tapGestureAction(_ sender: UITapGestureRecognizer) {
-        print("Tap Gesture is Tapped!!")
+        if let index = self.indexPath {
+            delegate?.avatarImageDidTap(onIndex: index)
+        }
     }
     
     public func genrateCell(withRecentChat : [String : Any], indexPath : IndexPath){

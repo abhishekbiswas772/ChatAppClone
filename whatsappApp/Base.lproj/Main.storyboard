@@ -339,6 +339,21 @@
             </objects>
             <point key="canvasLocation" x="3197" y="389"/>
         </scene>
+        <!--Messages View Controller-->
+        <scene sceneID="u0p-dD-Zmu">
+            <objects>
+                <viewController restorationIdentifier="JSQMessagesViewController" storyboardIdentifier="JSQMessagesViewController" id="qEe-3H-f16" customClass="JSQMessagesViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Mo-WD-Jl2">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qkF-Iq-yuO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNN-aN-Ubh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3197" y="-976"/>
+        </scene>
         <!--Chats-->
         <scene sceneID="xhZ-Tl-blq">
             <objects>

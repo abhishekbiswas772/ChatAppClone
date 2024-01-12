@@ -139,17 +139,18 @@ extension UserViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     private func splitDataIntoSection() {
-        var sectionTitle : String = ""
+        var sectionTitle: String = ""
         for itemUser in 0..<self.allFirebaseUser.count {
             let currentRecordedUser = self.allFirebaseUser[itemUser]
             if let firstChar = currentRecordedUser.firstname?.first {
                 let firstCharStr = "\(firstChar)"
-                if firstCharStr != sectionTitle {
-                    sectionTitle = firstCharStr
+                let commonCaseFirstChar = firstCharStr.uppercased()
+                if commonCaseFirstChar != sectionTitle {
+                    sectionTitle = commonCaseFirstChar
                     self.allUsrGrouped[sectionTitle] = []
                     self.allSectionTitle.append(sectionTitle)
                 }
-                self.allUsrGrouped[firstCharStr]?.append(currentRecordedUser)
+                self.allUsrGrouped[commonCaseFirstChar]?.append(currentRecordedUser)
             }
         }
     }

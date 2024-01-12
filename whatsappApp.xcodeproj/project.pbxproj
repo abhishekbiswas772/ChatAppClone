@@ -30,6 +30,15 @@
 		2118D17C2B4D694600D16A03 /* ChatHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D17B2B4D694600D16A03 /* ChatHandler.swift */; };
 		2118D1802B4D7CC200D16A03 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D17E2B4D7CC200D16A03 /* ChatTableViewCell.swift */; };
 		2118D1812B4D7CC200D16A03 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2118D17F2B4D7CC200D16A03 /* ChatTableViewCell.xib */; };
+		2118D1832B4E979900D16A03 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1822B4E979900D16A03 /* ChatViewController.swift */; };
+		2118D1862B4EC24E00D16A03 /* ChatUIOutgoingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1852B4EC24E00D16A03 /* ChatUIOutgoingHandler.swift */; };
+		2118D1882B4ED1C600D16A03 /* ChatUIIncomingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1872B4ED1C600D16A03 /* ChatUIIncomingHandler.swift */; };
+		2118D1902B4FD1CA00D16A03 /* ChatHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D18E2B4FD1CA00D16A03 /* ChatHeaderTableViewCell.swift */; };
+		2118D1912B4FD1CA00D16A03 /* ChatHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2118D18F2B4FD1CA00D16A03 /* ChatHeaderTableViewCell.xib */; };
+		2118D1982B50116600D16A03 /* CameraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1972B50116600D16A03 /* CameraHelper.swift */; };
+		2118D19A2B50F06D00D16A03 /* DownloadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D1992B50F06D00D16A03 /* DownloadHelper.swift */; };
+		2118D19C2B5109A900D16A03 /* PhotoMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D19B2B5109A900D16A03 /* PhotoMediaItem.swift */; };
+		2118D19E2B51488300D16A03 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118D19D2B51488300D16A03 /* AudioViewController.swift */; };
 		21A8B4042B482C3E0063C1C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4032B482C3E0063C1C0 /* AppDelegate.swift */; };
 		21A8B4062B495F200063C1C0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4052B495F200063C1C0 /* SettingViewController.swift */; };
 		21A8B40A2B49608B0063C1C0 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8B4082B49608B0063C1C0 /* SettingTableViewCell.swift */; };
@@ -67,6 +76,15 @@
 		2118D17B2B4D694600D16A03 /* ChatHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHandler.swift; sourceTree = "<group>"; };
 		2118D17E2B4D7CC200D16A03 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		2118D17F2B4D7CC200D16A03 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		2118D1822B4E979900D16A03 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2118D1852B4EC24E00D16A03 /* ChatUIOutgoingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUIOutgoingHandler.swift; sourceTree = "<group>"; };
+		2118D1872B4ED1C600D16A03 /* ChatUIIncomingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUIIncomingHandler.swift; sourceTree = "<group>"; };
+		2118D18E2B4FD1CA00D16A03 /* ChatHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		2118D18F2B4FD1CA00D16A03 /* ChatHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		2118D1972B50116600D16A03 /* CameraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHelper.swift; sourceTree = "<group>"; };
+		2118D1992B50F06D00D16A03 /* DownloadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHelper.swift; sourceTree = "<group>"; };
+		2118D19B2B5109A900D16A03 /* PhotoMediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMediaItem.swift; sourceTree = "<group>"; };
+		2118D19D2B51488300D16A03 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		21A8B4032B482C3E0063C1C0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21A8B4052B495F200063C1C0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		21A8B4082B49608B0063C1C0 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
@@ -137,7 +155,9 @@
 		210C9C782B47D4D300D7E227 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2118D1962B50114500D16A03 /* Camera & Photo Helper */,
 				210C9C792B47D4DE00D7E227 /* Helpers.swift */,
+				2118D1992B50F06D00D16A03 /* DownloadHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -194,8 +214,10 @@
 		2118D1782B4D68E900D16A03 /* ChatsController */ = {
 			isa = PBXGroup;
 			children = (
-				2118D17D2B4D7CAD00D16A03 /* ChatCell */,
+				2118D1892B4FC71200D16A03 /* ChatExtensions */,
 				2118D17B2B4D694600D16A03 /* ChatHandler.swift */,
+				2118D1842B4EC23800D16A03 /* ChatUIHandler */,
+				2118D17D2B4D7CAD00D16A03 /* ChatCell */,
 			);
 			path = ChatsController;
 			sourceTree = "<group>";
@@ -205,8 +227,37 @@
 			children = (
 				2118D17E2B4D7CC200D16A03 /* ChatTableViewCell.swift */,
 				2118D17F2B4D7CC200D16A03 /* ChatTableViewCell.xib */,
+				2118D18E2B4FD1CA00D16A03 /* ChatHeaderTableViewCell.swift */,
+				2118D18F2B4FD1CA00D16A03 /* ChatHeaderTableViewCell.xib */,
 			);
 			path = ChatCell;
+			sourceTree = "<group>";
+		};
+		2118D1842B4EC23800D16A03 /* ChatUIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2118D1852B4EC24E00D16A03 /* ChatUIOutgoingHandler.swift */,
+				2118D1872B4ED1C600D16A03 /* ChatUIIncomingHandler.swift */,
+			);
+			path = ChatUIHandler;
+			sourceTree = "<group>";
+		};
+		2118D1892B4FC71200D16A03 /* ChatExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				2118D1822B4E979900D16A03 /* ChatViewController.swift */,
+			);
+			path = ChatExtensions;
+			sourceTree = "<group>";
+		};
+		2118D1962B50114500D16A03 /* Camera & Photo Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2118D1972B50116600D16A03 /* CameraHelper.swift */,
+				2118D19B2B5109A900D16A03 /* PhotoMediaItem.swift */,
+				2118D19D2B51488300D16A03 /* AudioViewController.swift */,
+			);
+			path = "Camera & Photo Helper";
 			sourceTree = "<group>";
 		};
 		21A8B4072B4960710063C1C0 /* Cells */ = {
@@ -301,6 +352,7 @@
 				210C9C6A2B47C15F00D7E227 /* LaunchScreen.storyboard in Resources */,
 				210C9C722B47CF2700D7E227 /* GoogleService-Info.plist in Resources */,
 				210C9C672B47C15F00D7E227 /* Assets.xcassets in Resources */,
+				2118D1912B4FD1CA00D16A03 /* ChatHeaderTableViewCell.xib in Resources */,
 				2118D16D2B4D464600D16A03 /* ProfileTableViewCell.xib in Resources */,
 				2118D1772B4D46AA00D16A03 /* Sub2ProfileTableViewCell.xib in Resources */,
 				2118D1732B4D469600D16A03 /* SubProfile1TableViewCell.xib in Resources */,
@@ -362,24 +414,32 @@
 			files = (
 				21A8B4042B482C3E0063C1C0 /* AppDelegate.swift in Sources */,
 				21A8B4112B4C1B460063C1C0 /* UserViewController.swift in Sources */,
+				2118D1832B4E979900D16A03 /* ChatViewController.swift in Sources */,
 				210C9C772B47D40C00D7E227 /* Constants.swift in Sources */,
 				2118D1652B4D400600D16A03 /* TabViewController.swift in Sources */,
 				2118D1722B4D469600D16A03 /* SubProfile1TableViewCell.swift in Sources */,
 				21A8B40E2B4C1A9E0063C1C0 /* UserTableViewCell.swift in Sources */,
+				2118D19A2B50F06D00D16A03 /* DownloadHelper.swift in Sources */,
 				210C9C7A2B47D4DE00D7E227 /* Helpers.swift in Sources */,
+				2118D1902B4FD1CA00D16A03 /* ChatHeaderTableViewCell.swift in Sources */,
 				2118D1682B4D456D00D16A03 /* ProfileViewController.swift in Sources */,
 				2118D1632B4D3E5F00D16A03 /* SplashViewController.swift in Sources */,
+				2118D19C2B5109A900D16A03 /* PhotoMediaItem.swift in Sources */,
 				2118D17C2B4D694600D16A03 /* ChatHandler.swift in Sources */,
+				2118D19E2B51488300D16A03 /* AudioViewController.swift in Sources */,
 				210C9C7C2B4802A600D7E227 /* FHelperClass.swift in Sources */,
 				210C9C802B4829BC00D7E227 /* RegisterViewController.swift in Sources */,
 				21A8B4062B495F200063C1C0 /* SettingViewController.swift in Sources */,
 				2118D16C2B4D464600D16A03 /* ProfileTableViewCell.swift in Sources */,
 				21A8B40A2B49608B0063C1C0 /* SettingTableViewCell.swift in Sources */,
+				2118D1862B4EC24E00D16A03 /* ChatUIOutgoingHandler.swift in Sources */,
+				2118D1982B50116600D16A03 /* CameraHelper.swift in Sources */,
 				210C9C622B47C15C00D7E227 /* WelcomeViewController.swift in Sources */,
 				210C9C602B47C15C00D7E227 /* SceneDelegate.swift in Sources */,
 				2118D1762B4D46AA00D16A03 /* Sub2ProfileTableViewCell.swift in Sources */,
 				2118D1802B4D7CC200D16A03 /* ChatTableViewCell.swift in Sources */,
 				21A8B4132B4C32A80063C1C0 /* HomeViewController.swift in Sources */,
+				2118D1882B4ED1C600D16A03 /* ChatUIIncomingHandler.swift in Sources */,
 				210C9C752B47D18900D7E227 /* FUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +596,7 @@
 				DEVELOPMENT_TEAM = M26QSW694N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = whatsappApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WhatsApp Clone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -549,9 +610,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.net.whatsappApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -566,6 +630,7 @@
 				DEVELOPMENT_TEAM = M26QSW694N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = whatsappApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WhatsApp Clone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -579,9 +644,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.net.whatsappApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

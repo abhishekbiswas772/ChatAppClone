@@ -7,70 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8AC0BC6A-03B5-4927-9239-53B0F75E1134"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "whatsappApp/Controllers/SplashViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "220BBEB9-1B49-4429-9222-E55E55D9FC8A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "whatsappApp/Controllers/SplashViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "prepareForAutoLoginForUser()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "220BBEB9-1B49-4429-9222-E55E55D9FC8A - 2b17572cc9f14133"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.FIRAuth, Swift.Optional&lt;__C.FIRUser&gt;) -&gt; () in whatsappApp.SplashViewController.prepareForAutoLoginForUser() -&gt; ()"
-                  moduleName = "whatsappApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abhishekbiswas/Desktop/DSA/whatsappApp/whatsappApp/Controllers/SplashViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "970">
-               </Location>
-               <Location
-                  uuid = "220BBEB9-1B49-4429-9222-E55E55D9FC8A - 2b17572cc9f14133"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.FIRAuth, Swift.Optional&lt;__C.FIRUser&gt;) -&gt; () in whatsappApp.SplashViewController.prepareForAutoLoginForUser() -&gt; ()"
-                  moduleName = "whatsappApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/abhishekbiswas/Desktop/DSA/whatsappApp/whatsappApp/Controllers/SplashViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "1576">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "CE89BB58-843A-4289-A236-EC559ADFF3F5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -78,9 +14,137 @@
             filePath = "whatsappApp/Controllers/SubControllers/UserViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "248"
-            endingLineNumber = "248"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
             landmarkName = "didTapAvatarImage(withIndexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE89BB58-843A-4289-A236-EC559ADFF3F5 - f4cde05cd7a60b6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in whatsappApp.UserViewController.didTapAvatarImage(withIndexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "whatsappApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abhishekbiswas/Desktop/DSA/whatsappApp/whatsappApp/Controllers/SubControllers/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "2553">
+               </Location>
+               <Location
+                  uuid = "CE89BB58-843A-4289-A236-EC559ADFF3F5 - f4cde05cd7a616bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in whatsappApp.UserViewController.didTapAvatarImage(withIndexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "whatsappApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abhishekbiswas/Desktop/DSA/whatsappApp/whatsappApp/Controllers/SubControllers/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "2553">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "511C4D50-347F-487E-BCBB-A76E566F092C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "whatsappApp/Controllers/ChatsController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "insertAllJSQMessage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92AAAAEA-39CE-45B3-A566-63CDF8A94029"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "whatsappApp/Controllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "prepareForChatVC(withRecentChat:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92AAAAEA-39CE-45B3-A566-63CDF8A94029 - 2135ded9008d4c24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "whatsappApp.HomeViewController.prepareForChatVC(withRecentChat: __C.NSDictionary) -&gt; ()"
+                  moduleName = "whatsappApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abhishekbiswas/Desktop/DSA/whatsappApp/whatsappApp/Controllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "4080">
+               </Location>
+               <Location
+                  uuid = "92AAAAEA-39CE-45B3-A566-63CDF8A94029 - 2135ded9008d4ce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "whatsappApp.HomeViewController.prepareForChatVC(withRecentChat: __C.NSDictionary) -&gt; ()"
+                  moduleName = "whatsappApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abhishekbiswas/Desktop/DSA/whatsappApp/whatsappApp/Controllers/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "210"
+                  endingLineNumber = "210"
+                  offsetFromSymbolStart = "4080">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCCB1BF1-162A-44F5-8B10-D033DBACFB60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "whatsappApp/Controllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "prepareForChatVC(withRecentChat:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67E45A9D-E363-4D54-982D-524053DAA39F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "whatsappApp/Controllers/ChatsController/ChatExtensions/ChatJSQHeader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "init(frame:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

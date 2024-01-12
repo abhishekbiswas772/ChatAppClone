@@ -76,8 +76,8 @@ final class ChatHandler {
                 kMEMBERS : members,
                 kMEMBERSTOPUSH : members,
                 kWITHUSERFULLNAME : withUser?.firstname ?? "",
-                kWITHUSERUSERNAME : withUser?.objectId ?? "",
-                kLASTNAME : "",
+                kWITHUSERUSERID : withUser?.objectId ?? "",
+                kLASTMESSAGE : "",
                 kCOUNTER : 0,
                 kDATE : date,
                 kTYPE : type,
@@ -92,7 +92,7 @@ final class ChatHandler {
                     kMEMBERS : members,
                     kMEMBERSTOPUSH : members,
                     kWITHUSERFULLNAME :withUserName ,
-                    kLASTNAME : "",
+                    kLASTMESSAGE : "",
                     kCOUNTER : 0,
                     kDATE : date,
                     kTYPE : type,
@@ -103,5 +103,25 @@ final class ChatHandler {
             
         }
         locReference.setData(recent)
+    }
+    
+    public func restartRecentChat(withChatRecent: NSDictionary) {
+        if let typeOfChat = withChatRecent[kTYPE] as? String  {
+            if typeOfChat == kPRIVATE {
+                if let currentUsr = FirebaseUser.currentUser() {
+                    self.createRecentChat(withMembers: withChatRecent[kMEMBERSTOPUSH] as? [String] ?? [], chatRoomId: withChatRecent[kCHATROOMID] as? String ?? "", withUserName: FirebaseUser.currentUser()?.firstname as? String ?? "", typeOfChat: typeOfChat, users: [currentUsr], groupAvatar: nil)
+                }
+            }else if typeOfChat == kGROUP {
+                if let currentUsr = FirebaseUser.currentUser() {
+                    self.createRecentChat(withMembers: withChatRecent[kMEMBERSTOPUSH] as? [String] ?? [], chatRoomId: withChatRecent[kCHATROOMID] as? String ?? "", withUserName: withChatRecent[kWITHUSERFULLNAME] as? String ?? "", typeOfChat: typeOfChat, users: nil, groupAvatar: withChatRecent[kAVATAR] as? String ?? "")
+                }
+            }
+        }
+    }
+    
+    public func deleteRecentChat(withChatDict : NSDictionary) {
+        if let recentChatId = withChatDict[kRECENTID] as? String {
+            FHelperClass.shared.reference(.Recent).document(recentChatId).delete()
+        }
     }
 }

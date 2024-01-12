@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSContactsUsageDescription</key>
+	<string>WhatApp Clone Needs Contacts For Getting Details For Contact</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>WhatApp Clone Needs Location For Sharing Location Details And For Location Messages</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>WhatApp Clone Needs Microphone For Audio And Video Calling</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>WhatApp Clone Needs to Use Camera For sending Pictures And Video in Chats.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>WhatApp Clone Needs to Use Camera For sending Pictures And Video in Chats.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>WhatApp Clone Needs to Use Camera For sending Pictures And Video in Chats &amp; Also Use For Audio And Video Calling</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
